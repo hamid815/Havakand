@@ -1,0 +1,47 @@
+.offers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.offers-items {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.offers-card {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  border-radius: 16px;
+  
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.offers-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.offers-info {
+  padding: 12px;
+}
+
+.order-btn {
+  background: #ff6f3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #e65c2d;
+}

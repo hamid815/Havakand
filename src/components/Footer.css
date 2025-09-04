@@ -1,0 +1,133 @@
+.instagram-site{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    background-color: rgba(250, 246, 235, 1);
+    border-radius: 21px;
+    padding: 40px 0 20px 40px;
+}
+.instagram-site >div{
+    width: 48%;
+}
+.insta-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.insta-btns button{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 100px;
+    padding: 20px 50px;
+    color: rgba(255, 187, 0, 1);
+    border: none;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.insta-img{
+    max-width: 540px;
+}
+.instagram-site h2{
+    color: rgba(134, 40, 9, 1);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
+}
+.instagram-site p{
+    color:rgba(69, 69, 69, 1);
+    font-size: 19px;
+    font-weight: 400;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    line-height: 26px;
+    margin: 10px 0;
+}
+.go-inst{
+    background-color: rgba(168, 163, 102, 1);
+    padding: 12px 22px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    cursor: pointer;    
+}
+
+/* /Blog */
+.blog-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 90px;
+}
+.blog-items >div{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.blog-items img{
+    max-width: 320px;
+    border-radius: 21px;
+    background-color: rgba(250, 246, 235, 1);
+    height: 100%;
+}
+.blog-items h3{
+    color: rgba(134, 40, 9, 1);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 10px 0;
+}
+/* ? Footer */
+.footer{
+    background-color: rgba(250, 246, 235, 1);
+    padding: 25px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border-radius: 21px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.footer img{
+    width: 380px;
+   
+   border-radius: 16px;
+}
+.footer i{
+    color: rgba(134, 40, 9, 1);
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 70%;
+}
+.footer-grid h3{
+    font-weight: 500;
+    font-size: 21px;
+}
+.footer-grid h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.socials >div{
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+.socials i{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}

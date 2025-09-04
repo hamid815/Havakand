@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid orange; */
+}
+.als{
+    align-items: center;
+    text-align: center;
+}
+.havakand-bakery {
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: space-between;
+    background-color: #A8A366;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    padding: 50px 0px 50px 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0;
+}
+.havakand-img1-container{
+    position: relative;
+}
+
+.havakand-img1{
+   max-height: 430px;
+   border-radius: 21px;
+   transform: rotate(-7.21deg);
+}
+.havakand-bulut1{
+    position: absolute;
+    width: 300px;
+    top: 130px;
+    left: -100px;
+    
+}
+.havakand-img2-container{
+    position: relative;
+}
+.havakand-img2{
+    transform: translateY(50px);
+    max-height: 504px;
+    border-radius: 21px;
+    
+    
+}
+.havakand-bulut2{
+    position: absolute;
+    width: 350px;
+    bottom: 50px;
+    right: 50px;
+    
+    
+}
+.havakand-bakery >div{
+    /* margin: 16px 0px 16px 0px; */
+    padding: 36px;
+   
+  
+}
+.havakand-bakery h2{
+    font-size: 28px;
+    line-height: 32px;
+    color: #FAF6EB;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.havakand-bakery p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAF6EB;
+    margin-top: 10px;
+    
+}
+.havakand-bakery button{
+    background-color: #FAF6EB;
+    color: #A8A366;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.havakand-bakery button:hover{
+    background-color: #A8A366;
+    color: #FAF6EB;
+}
+.havakand-footer{
+    position: absolute;
+    width: 100%;
+    bottom: -130px;
+    left: 0;
+}
+
+/* Fransiya texnologiyasi 2630 1830 */
+.fransiya-texnologiyasi{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+    padding: 0 50px;
+    gap: 30px;
+}
+.fr-img{
+    max-width: 480px;
+    border-radius: 50%;
+    transform: rotate(-16.19deg);
+}
+.oshpaz-cont{
+    align-items: center;
+}
+.oshpaz{
+    max-width: 420px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+
+.fransiya-texnologiyasi h2{
+    font-style: 28px;
+    color: #A8A366;
+    line-height: 36px;
+}
+.fransiya-texnologiyasi p{
+    font-size: 19px;
+    line-height: 29px;
+    color: #4F4F4F;
+    margin-top: 10px;
+}
+.fransiya-texnologiyasi button{
+    background-color: #A8A366;
+    color: #FAF6EB;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 30px;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.fransiya-texnologiyasi button:hover{
+    background-color: #faf6eb00;
+    color: #A8A366;
+}

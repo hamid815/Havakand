@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+li {
+    cursor: pointer;
+    font-weight: 500;
+    color: #000000;
+    font-size: 17px;
+    padding: 7px 10px;
+}
+li:hover {
+    background-color: #A8A366;
+    border-radius: 5px;
+    color: white;
+}
+.header-logo {
+    max-width: 118px;
+    height: auto;
+}
+header button {
+    background-color: #00000000;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    
+}
+header button:hover{
+    color: aliceblue;
+}

@@ -1,0 +1,89 @@
+.bakery-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.bakery-items-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.bakery-items {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.bakery-card {
+  flex: 0 0 25%; /* 4 ta ko‘rinadi */
+  min-width: 25%;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 16px;
+  margin: 0 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.bakery-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.bakery-info {
+  padding: 12px;
+}
+
+.order-btn {
+  background: #ff6f3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #e65c2d;
+}
+
+/* .nav {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+} */
+
+.nav:disabled {
+  background: rgba(0,0,0,0.2);
+  cursor: not-allowed;
+}
+.bakery-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.bakery-items {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease;
+  width: max-content;
+}
+
+.bakery-card {
+  flex: 0 0 calc(25% - 15px); /* 4ta card ekranda chiqishi uchun */
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
