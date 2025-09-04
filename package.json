@@ -37,6 +37,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "devDependencies": {
+      "typescript": "4.9.5"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }
